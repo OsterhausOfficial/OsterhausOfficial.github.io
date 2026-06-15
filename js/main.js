@@ -1,3 +1,5 @@
-document.querySelectorAll('.faq-item').forEach(el=>{
-  el.addEventListener('click',()=>el.classList.toggle('active'));
+document.querySelectorAll(".faq-item").forEach(item=>{
+  item.addEventListener("click",()=>{
+    item.classList.toggle("active");
+  });
 });
